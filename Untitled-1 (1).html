@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Najlepsi gracze</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffcf33;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #ffcf33;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .left-panel {
+      width: 25%;
+      padding: 10px;
+    }
+    .left-panel img {
+      max-width: 85%;
+      height: auto;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .right-panel {
+      width: 75%;
+      padding: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #a6be7e;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    th, td {
+      border: 1px solid #666;
+      padding: 8px 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #a6be7e;
+    }
+    .button-container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+    .authors {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #339966;
+      text-align: center;
+    }
+    .legend {
+      font-size: 0.9em;
+      margin: 20px auto;
+      text-align: center;
+    }
+    footer {
+      background: #ffcf33;
+      padding: 15px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Najlepsi gracze naszego koła</h2>
+  </header>
+
+  <main>
+    <p><h4>Polecane linki<br></h4></p>
+    <ul>
+      <li><a href="https://pl.wikipedia.org/wiki/Jajo_(biologia)">kwerenda1</a></li>
+      <li><a href="https://pl.wikipedia.org/wiki/Jajo_(biologia)">kwerenda2</a></li>
+      <li><a href="https://pl.wikipedia.org/wiki/Jajo_(biologia)">kwerenda3</a></li>
+      <li><a href="https://pl.wikipedia.org/wiki/Jajo_(biologia)">kwerenda4</a></li>
+    </ul>
+    <div class="left-panel">
+      <img src="tablica.png" alt="Zdjęcie gracza">
+    </div>
+    <div class="right-panel">
+        <table>
+          <thead>
+            <tr>
+              <th>Pozycja</th>
+              <th>Pseudonim</th>
+              <th>Tytuł</th>
+              <th>Ranking</th>
+              <th>Klasa</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>LiLa</td><td>AM</td><td>2901</td><td>2A</td></tr>
+            <tr><td>2</td><td>HarmoniaB</td><td>SM</td><td>2888</td><td>1A</td></tr>
+            <tr><td>3</td><td>Magnus</td><td>SM</td><td>2882</td><td>1C</td></tr>
+            <tr><td>4</td><td>Bludolf</td><td>KM</td><td>2830</td><td>4C</td></tr>
+            <tr><td>5</td><td>Botas Bross</td><td>KM</td><td>2817</td><td>3B</td></tr>
+            <tr><td>6</td><td>BananD</td><td>PM</td><td>2817</td><td>2C</td></tr>
+            <tr><td>7</td><td>Hans</td><td>PM</td><td>2811</td><td>3A</td></tr>
+            <tr><td>8</td><td>Eryka Róża</td><td>KM</td><td>2810</td><td>4C</td></tr>
+            <tr><td>9</td><td>Hiklar</td><td>SM</td><td>2798</td><td>1B</td></tr>
+            <tr><td>10</td><td>So What</td><td>SM</td><td>2788</td><td>4B</td></tr>
+          </tbody>
+        </table>
+
+        <div class="button-container">
+            <button>Losuj nową parę graczy</button>
+          </div>
+        
+          <div class="authors">WalSat 2A MicKra 4B</div>
+        </div>
+  </main>
+
+  <section class="legend">
+    Legenda: AM - Absolutny Mistrz, SM - Szkolny Mistrz, PM - Mistrz Poziomu, KM - Mistrz Klasowy
+  </section>
+
+  <footer>
+    Stronę wykonał: 000000000000
+  </footer>
+
+</body>
+</html>
